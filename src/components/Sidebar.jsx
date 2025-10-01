@@ -26,7 +26,7 @@ const StudentDashboard = () => {
   ];
 
 
-  const instituteName = " Institute Name";
+  const instituteName = " IIIT PUNE";
 
   const handleLogout = () => {
     alert("Logged out!");
@@ -618,5 +618,6 @@ export default StudentDashboard;
 // };
 
 // export default FeeRecords;
+
 
 
