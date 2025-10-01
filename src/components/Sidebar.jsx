@@ -9,7 +9,7 @@ import {
 } from "lucide-react";
 
 const StudentDashboard = () => {
-  const [activeSection, setActiveSection] = useState("devcraft");
+  const [activeSection, setActiveSection] = useState("profile");
 
   const sections = [
     { name: "Profile", icon: <User size={20} /> },
@@ -618,4 +618,5 @@ export default StudentDashboard;
 // };
 
 // export default FeeRecords;
+
 
