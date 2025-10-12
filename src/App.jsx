@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Navigate } from "react-router-dom";
-import { AuthProvider } from "./context/Authcontext";
+import { AuthProvider } from "./context/Authcontext.jsx";
 import LandingPage from "./pages/LandingPage";
 import Login from "./pages/Login";
 import StudentDashboard from "./components/StudentDashboard";
